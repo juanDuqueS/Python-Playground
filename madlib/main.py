@@ -1,4 +1,3 @@
-import tkinter as tk
 msg = "Hello World"
 print(msg)
 
