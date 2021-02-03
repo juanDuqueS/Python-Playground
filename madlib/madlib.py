@@ -1,6 +1,9 @@
 #import module
 from tkinter import *
 
+def start():
+  print("proccess has started")
+  
 # initialize window
 root = Tk()
 root.geometry('300x300')
@@ -64,3 +67,4 @@ Button(root, text= 'apple and apple', font ='arial 15', command = madlib3 , bg =
 Button(root, text= 'The Butterfly', font ='arial 15', command = madlib2, bg = 'ghost white').place(x=80, y=240)
 
 root.mainloop()
+
