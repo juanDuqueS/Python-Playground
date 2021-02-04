@@ -1,12 +1,8 @@
+from MIRcourse.stringManager import *
+
 print("Select an option:\n"+
 "1. String inverter\n"+
 "2. WIP\n")
-
-def invertString(word):
-  if len(word) == 0:
-    return word
-  else:
-    return invertString(word[1:]) + word[0]
 
 while True:
   try:
