@@ -1,4 +1,4 @@
-from MIRcourse.stringManager import *
+from stringManager import *
 
 print("Select an option:\n"+
 "1. String inverter\n"+
@@ -14,7 +14,7 @@ while True:
     word = input("Write a word: ")
     print(invertString(word))
   elif x == 2:
-    print("Option 2 not supported yet\n")
+    birthday()
   else:
     print("Please input a correct option\n")
   
