@@ -13,3 +13,6 @@ def birthday():
   age = datetime.datetime.now().year - year
 
   print(f"Your birthday is on {day}/{month} and you are {age} years old\n")
+
+def elevate(number, exponent=2): ##asignin values to the function makes it a default value
+  return number ** exponent
