@@ -5,9 +5,10 @@ print("Select an option:\n"+
 "2. Birthday\n"+
 "3. Elevate numbers\n")
 
+x = 0
+
 while True:
   try:
-    x = 0
     x = int(input("Give me a number: "))
   except:
     print("Something went wrong")
@@ -19,7 +20,8 @@ while True:
     birthday()
   elif x == 3:
     number = int(input("Give me a number to elevate: "))
-    print(elevate(number, 3))
+    exponent = int(input("\nGive me an exponent: "))
+    print(elevate(number, exponent))
   else:
     print("Please input a correct option\n")
   
