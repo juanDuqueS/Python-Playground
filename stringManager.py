@@ -1,5 +1,8 @@
 import datetime
 
+heigth = []
+name = []
+
 def invertString(word):
   if len(word) == 0:
     return word
@@ -16,3 +19,9 @@ def birthday():
 
 def elevate(number, exponent=2): ##asignin values to the function makes it a default value
   return number ** exponent
+
+def addHeight(newName, newHeigth):
+  heigth.append(newHeigth)
+  name.append(newName)
+  
+  print(list(zip(name, heigth)))
